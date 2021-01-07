@@ -7,12 +7,13 @@ Pen and paper is cool, but you just gotta code it! :desktop_computer:
 ## Featuring 	:pushpin:
 
 * Diverse Data Structures and Algorithms
+* Optimized algorithm progressions
 * Friendly comments:
   * explanations
   * time / space complexity
   * expected outputs
   * topic headings
-* Optimized algorithm progressions
+  
 ## Format :bookmark_tabs:
 
 #### Banks :classical_building:: for refreshing skills!
