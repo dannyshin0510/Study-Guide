@@ -13,8 +13,34 @@ Pen and paper is cool, but you just gotta code it! :desktop_computer:
   * expected outputs
   * topic headings
 * Oprimized algorithm progressions
+## Format :bookmark_tabs:
 
-### banks? :classical_building:
+#### Banks :classical_building:
+```bash
+#LISTS
+# ***********************************************
+# append() - Add an element to the end of the list
+# extend() - Add all elements of a list to the another list
+# insert() - Insert an item at the defined index
+                       .
+                       .
+# ***********************************************
+
+# Demonstrating insert() method
+odd = [2, 7]
+odd.insert(1,3)
+
+print(odd)
+
+odd[2:2] = [12, 13]
+
+print(odd)
+
+# Expect:
+# [2, 3, 7]
+# [2, 3, 12, 13, 7]
+```
+#### Problems
 
 ## Great for 	:monocle_face:
 
