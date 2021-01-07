@@ -14,6 +14,8 @@ Pen and paper is cool, but you just gotta code it! :desktop_computer:
   * topic headings
 * Oprimized algorithm progressions
 
+### banks? :classical_building:
+
 ## Great for 	:monocle_face:
 
 * Learning Algorithms
@@ -31,5 +33,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-## Check it out! :mag:
-[Here](https://www.penboxx.com/).
