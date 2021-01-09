@@ -1,3 +1,4 @@
+# Combination Sum.
 # Input: candidates = [2,3,6,7], target = 7
 # Output: [[2,2,3],[7]]
 # Explanation:
@@ -12,3 +13,6 @@ def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
             if i == c: dp[i].append([c])
             for comb in dp[i - c]: dp[i].append(comb + [c])  # O(M) worst: for each combination
     return dp[-1]
+
+# Time Complexity: O(M*M*N), N = len(candidates), M = target
+# Space Complexity: O(M*M)

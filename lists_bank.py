@@ -1,6 +1,7 @@
 # The following operations depict the possible methods for python's lists
 # Subject to change frequently
 
+#LISTS
 
 # ***********************************************
 # append() - Add an element to the end of the list
