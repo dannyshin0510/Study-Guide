@@ -46,13 +46,9 @@ print(odd)
 #### Problems :mag:: for reviewing solutions!
 Example:
 ```bash
-# Combination Sum.
-# Input: candidates = [2,3,6,7], target = 7
-# Output: [[2,2,3],[7]]
-# Explanation:
-# 2 and 3 are candidates, and 2 + 2 + 3 = 7. Note that 2 can be used multiple times.
-# 7 is a candidate, and 7 = 7.
-# These are the only two combinations.
+# Jack submits his soccer team with the following numbers = [2,3,6,7]
+# The jersy numbers must sum up to target = 7
+# Please note that Jack has purchased numerous copies of each jersey number
 
 def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
     dp = [[] for _ in range(target + 1)]
