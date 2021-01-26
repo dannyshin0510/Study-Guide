@@ -10,6 +10,7 @@ graph = {
   'F' : []
 }
 
+
 visited = [] # List to keep track of visited nodes.
 queue = []     #Initialize a queue
 

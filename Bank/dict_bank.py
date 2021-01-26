@@ -118,6 +118,7 @@ print(squares)
 # delete the dictionary itself
 del squares
 
+
 # Expect:
 # 16
 # {1: 1, 2: 4, 3: 9, 5: 25}
