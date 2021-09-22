@@ -33,6 +33,20 @@ def recur(subset):
         subset.pop(-1)
 recur([])
 
+print('All combinations, but each element only once')
+listings = []
+def recur(combo, nums):
+    if combo != []:
+        listings.append(combo)
+    if len(nums) == 0:
+        return
+    for i in range(len(nums)):
+        print (nums[:i], nums[i+1:])
+        recur(combo+[nums[i]], nums[:i]+nums[i+1:])
+recur([], list)
+print (listings)
+
+
 print('sliding window')
 total = 5
 l=0

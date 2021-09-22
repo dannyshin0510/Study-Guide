@@ -16,4 +16,5 @@ class Solution:
             if len(S[l:r])==len(set(S[l:r])):      #THE KEY POINT: check if string has repeated letters
                 answer +=1
             l+=1
+            
         return answer
